@@ -1,3 +1,51 @@
+/* this is a multi line comment that will appear in the final output. use a multi line comment with an ! right
+at the beginning to ensure important information is included even in a compressed files */
+header[role="banner"] {
+  margin: 20px 0 30px 0;
+  border-bottom: 4px solid #333; }
+  header[role="banner"] #logo {
+    float: left;
+    margin: 0 20px 0 0; }
+    header[role="banner"] #logo img {
+      display: block;
+      opacity: .95; }
+  header[role="banner"] h1 {
+    padding: 15px 0;
+    line-height: 1; }
+    header[role="banner"] h1 font {
+      size: 54px;
+      family: Jubilat, Georgia, serif;
+      weight: bold; }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+  border-bottom: 2px solid red; }
+  a:hover {
+    color: maroon;
+    border-color: maroon; }
+
+li a {
+  color: blue; }
+  li a.alert {
+    color: red; }
+  li a.success {
+    color: green; }
+
+section.main p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  line-height: 1.5; }
+  body.store section.main p {
+    font-size: 16px;
+    line-height: 1.4; }
+
+body {
+  padding: 0 8%;
+  font-family: "Promima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  color: #333;
+  background: #fff url(../img/bg.jpg) repeat-x -80% 0; }
 
 /*# sourceMappingURL=styles.css.map */

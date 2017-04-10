@@ -1,0 +1,73 @@
+/* this is a multi line comment that will appear in the final output. use a multi line comment with an ! right
+at the beginning to ensure important information is included even in a compressed files */
+
+header[role="banner"] {
+  margin: 20px 0 30px 0;
+  border-bottom: 4px solid #333;
+
+  #logo {
+    float: left;
+    margin: 0 20px 0 0;
+
+    img {
+      display: block;
+      opacity: .95;
+    }
+  }
+
+  h1 {
+    padding: 15px 0;
+    line-height: 1;
+    font {
+      size: 54px;
+      family: Jubilat, Georgia, serif;
+      weight: bold;
+    }
+  }
+}  
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+  border-bottom: 2px solid red;
+  &:hover {
+    color: maroon;
+    border-color: maroon;
+  }
+}
+li a {
+  color: blue;
+  &.alert {
+    color: red;
+  }
+  &.success {
+    color: green;
+  }
+}
+section.main p {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  body.store & {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+//this is a single line comment that will not appear in the final output
+
+$color-main: #333;
+$color-light: #999;
+$color-accent: #ea4c89;
+
+$font-sans: "Promima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif: Jubilat, Georgia, serif;
+
+body {
+  padding: 0 8%;
+  font-family: $font-sans;
+  font-size: 100%;
+  color: $color-main;
+  background: #fff url(../img/bg.jpg) repeat-x -80% 0;
+}
+
